@@ -1,0 +1,94 @@
+header{
+    background-color: #fff;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation{
+    height: 4rem;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+.iconlogo{
+    margin-top: 0.5rem;
+    width: 35px;
+    height: 35px;
+}
+
+.searchbox{
+    margin-top: 0.95rem;
+    width: 215px;
+    height: 28px;
+    background: #fafafa;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    appearance: none;
+
+}
+
+.flex-container ul li{
+    list-style-type: none;
+    margin:0 1em;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+#feed{
+    background-color: #fff;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    width: 600px;
+}
+
+.profile-gede{
+    max-width: 3rem;
+    max-height: 3rem;
+}
+
+.profile-kecil{
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+.profilename{
+    margin: 1rem;
+}
+
+.icon{
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+.picture{
+    width: 600px;
+    margin-left: 0;
+}
+
+.right{
+    float: right;
+}
+
+.commentbox{
+    border-top: 1px solid #e6e6e6;
+}
+
+.inputcomment{
+    border: 0;
+}
+
+#stories{
+    width: 293px;
+}
+
+.storyhead{
+    border-bottom: 1px solid #e6e6e6;
+}
