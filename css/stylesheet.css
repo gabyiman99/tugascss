@@ -1,6 +1,7 @@
 header{
     background-color: #fff;
 }
+
 .flex-container{
     display: flex;
     flex-direction: row;
@@ -49,18 +50,38 @@ body{
     width: 600px;
 }
 
+.grid-profile-feed{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.grid-profile-feed > .profile-name{
+    align-self: center;
+    justify-self: start;
+}
+
+.grid-profile-feed > .profile-pic{
+    align-self: center;
+    justify-self: center;
+}
+
+
 .profile-gede{
     max-width: 3rem;
     max-height: 3rem;
+    border-radius: 3rem;
+
 }
 
 .profile-kecil{
     max-width: 2rem;
     max-height: 2rem;
+    border-radius: 3rem;
 }
 
-.profilename{
-    margin: 1rem;
+.profile-name{
+    font-weight: bold;
 }
 
 .icon{
@@ -68,9 +89,24 @@ body{
     max-height: 2rem;
 }
 
+figure{
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0; 
+}
+
 .picture{
     width: 600px;
-    margin-left: 0;
+}
+
+.captions{
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.captions-icon{
+    margin-left: 0.5rem;
 }
 
 .right{
@@ -79,6 +115,7 @@ body{
 
 .commentbox{
     border-top: 1px solid #e6e6e6;
+    padding-top: 0.5rem;
 }
 
 .inputcomment{
@@ -89,6 +126,28 @@ body{
     width: 293px;
 }
 
+.grid-profile-story{
+    display: grid;
+    grid-template-columns: 22% 78%;
+}
+
+.grid-profile-story > .profile-pic{
+    grid-row: 1/3;
+}
+
+.grid-profile-story > .profile-name{
+    align-self: end;
+}
+
+.grid-profile-story > .desc{
+    align-self: start;
+}
+
 .storyhead{
     border-bottom: 1px solid #e6e6e6;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
 }
